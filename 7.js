@@ -12,4 +12,4 @@ async function retryRequest(url, retries = 3) {
     }
 }
 
-retryRequest('https://jsonplaceholder.typicode.com/users/1');
+retryRequest('https://jsonplaceholder.typicode.com/users/12');
