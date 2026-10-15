@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-async function retryRequest(url, retries = 3) {
+async function retryRequest(url, retries = 6) {
     try {
         return await axios.get(url);
     } catch (error) {
