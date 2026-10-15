@@ -3,7 +3,7 @@ import axios from 'axios';
 async function getWithTimeout() {
     try {
         const response = await axios.get('https://jsonplaceholder.typicode.com/posts', {
-            timeout: 2000 // ждать 1 секунду
+            timeout: 2000 
         });
         console.log(response.data);
     } catch (error) {
